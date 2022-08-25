@@ -2,9 +2,9 @@ const mysql = require("mysql");
 const connection = mysql.createConnection({
 	host: "127.0.0.1",
 	port: 3307,
-	user: "wm_api_user",
-	password: "wm_ser_1234",
-	database: "wm_api",
+	user: "",
+	password: "",
+	database: "",
 });
 
 connection.connect(function (err) {
